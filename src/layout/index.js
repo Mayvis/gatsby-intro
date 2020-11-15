@@ -5,6 +5,7 @@ import Header from './Header';
 import useSiteMetadata from '../hooks/use-sitemetadata';
 
 const Layout = ({ children }) => {
+  // eslint-disable-next-line
   const { title, description } = useSiteMetadata();
 
   return (
