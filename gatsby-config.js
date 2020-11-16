@@ -22,5 +22,11 @@ module.exports = {
         path: 'posts',
       },
     },
+    {
+      resolve: 'gatsby-plugin-s3',
+      options: {
+        bucketName: 'mayvisblog.com',
+      },
+    },
   ],
 };
